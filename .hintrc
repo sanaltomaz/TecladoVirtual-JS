@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "compat-api/css": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not samsung <= 22"
+  ]
+}
